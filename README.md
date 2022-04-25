@@ -94,13 +94,19 @@ Podemos acessar as fotos e outros arquivos do celular pelo termux executando o c
 
 >du -shxc * | sort -rh
 
->4.0G  total
->2.0G  DCIM
->828M  Android
->704M  Pictures
->231M  Telegram
->213M  syncthing
->103M  Download
+4.0G  total
+
+2.0G  DCIM
+
+828M  Android
+
+704M  Pictures
+
+231M  Telegram
+
+213M  syncthing
+
+103M  Download
 
 Outra coisa legal de fazer agora que estamos acessando os arquivos do celular é deletar>
 >shred -uv IMG_20210416_103105401.jpg
